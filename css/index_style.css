@@ -1,0 +1,160 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image:url(../images/yellowbg.gif);
+    background-repeat: no-repeat;
+    background-size: 300% 17%;
+    background-position:top;
+}
+
+.body h1,h2,h3,h4{
+    font-family: 'Audiowide', cursive;
+}
+
+.body p li{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.center{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 700px;
+    margin-bottom: 50px;
+}
+
+.item1{
+    background-color:#db1e16;
+    grid-column-start:1;
+    grid-column-end: 1;
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows: 100px 600px; 
+}
+
+.subitem1{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.subitem1 h2{
+    font-size: 200%;
+    color: white;
+}
+
+.subitem2{
+    grid-column-start: 2;
+    grid-column-end:4;
+    justify-self: end;
+    align-self: center;
+}
+
+.subitem2 p{
+    color:white;
+}
+
+.item2{
+    background-color: white;
+    grid-column-start:2;
+    grid-column-end: 2;
+}
+
+.textfloat{
+    height:700px;
+}
+
+.selfie{
+    height: 460px;
+    width: 350px;
+}
+
+.bio{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2.5fr;
+    margin-bottom: 50px;
+}
+
+.titles{
+    background-color:white;
+    padding-left: 70px;
+    padding-right: 70px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    align-self: start;
+    justify-self:center; 
+    text-align: center;
+    color:#03113d;
+    z-index: 1;
+}
+
+.text{
+    background-color:#03113d;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: grid;
+    grid-template-columns: .5fr 3fr .5fr 3fr .5fr;
+    margin-top: -50px; 
+}
+
+.subtext1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color:white;
+    justify-self:center;
+    align-self: center;
+}
+
+.subtext2{
+    color:white;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    justify-self:center;
+    align-self: center; 
+}
+
+.projtitle{
+    text-align: center;
+    font-size: 150%;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+}
+
+.proj1 h4{
+    text-align: center;
+}
+
+.comment{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.comment h2{
+    font-size: 200%;
+}
+
+.end{
+    text-align: center;
+}
+
+.footer{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.fab{
+    padding-left: 50px;
+    padding-right: 50px;
+}

@@ -1,0 +1,114 @@
+@media only screen 
+  and (min-device-width: 1024px) 
+  {
+
+    .chinese{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 25px;
+        justify-items: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+}
+
+    .stopsmoking{    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 25px;
+        justify-items: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+}
+
+    .converse{    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 25px;
+        justify-items: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+}
+
+    .stopbullying{    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 25px;
+        justify-items: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+}
+
+}
+
+@media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) {
+    .body h1,h2,h3,h4{
+        font-size: 120%;
+    }
+
+    .mainnav li{
+        display:inline-block;
+        width: 70px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .biggerbox1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 25px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }    
+
+    .biggerbox2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 25px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }  
+}
+
+@media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 768px)
+    and (orientation: landscape) 
+    {
+    .body h1,h2,h3,h4{
+        font-size: 120%;
+    }
+
+    .mainnav li{
+        display:inline-block;
+        width: 70px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .chinese{
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+    }
+
+    .stopsmoking{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .converse{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    } 
+    
+    .stopbullying{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}

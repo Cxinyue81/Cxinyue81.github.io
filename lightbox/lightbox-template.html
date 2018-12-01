@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="css/lightbox.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<title>Lightbox</title>
+</head>
+<body>
+	<div class="controls" role="banner">
+		<button type="button" class="control" data-filter="all">All</button>
+		<button type="button" class="control" data-toggle=".blue">Blue</button>
+		<button type="button" class="control" data-toggle=".yellow">Yellow</button>
+		<button type="button" class="control" data-toggle=".green">Green</button>
+	</div>
+
+	<div class = "gallery" role="contentinfo">
+		<a class="mix green" href="images/bird.jpg" data-lightbox="image" data-title="A bird in the ocean of leaves"><img src="images/bird.jpg" alt="bird in the ocean of leaves"></a>
+		<a class="mix green" href="images/girl.jpg" data-lightbox="image" data-title="A girl in pink dress"><img src="images/girl.jpg" alt="a girl in pink dress"></a>
+		<a class="mix green" href="images/colorful.jpg" data-lightbox="image" data-title="A colorful lizard"><img src="images/colorful.jpg" alt="lizard"></a>
+		<a class="mix green" href="images/flower.jpg" data-lightbox="image" data-title="The yellow flower"><img src="images/flower.jpg" alt="flower"></a>
+		<a class="mix yellow" href="images/sandbird.jpg" data-lightbox="image" data-title="A bird on the beach"><img src="images/sandbird.jpg" alt="bird on the beach"></a>
+		<a class="mix yellow" href="images/bridge.jpg" data-lightbox="image" data-title="The sunset on the bridge"><img src="images/bridge.jpg" alt="sunset on the bridge"></a>
+		<a class="mix yellow" href="images/seabird.jpg" data-lightbox="image" data-title="A lovely seabird"><img src="images/seabird.jpg" alt="a seabird"></a>
+		<a class="mix blue" href="images/chicken.jpg" data-lightbox="image" data-title="Baby chickens in the line"><img src="images/chicken.jpg" alt="chickens in line"></a>
+		<a class="mix blue" href="images/ship.jpg" data-lightbox="image" data-title="A ship in the habor"><img src="images/ship.jpg" alt="a ship in the habor"></a>
+	</div>
+
+	<h1>Enjoy!</h1>
+	<script src="js/lightbox.js"></script>
+	<script src="mixitup/mixitup.min.js"></script>
+	<script>
+		var containerEl = document.querySelector('.gallery');
+		var mixer = mixitup(containerEl);
+	</script>
+</body>
+</html>

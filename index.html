@@ -10,100 +10,161 @@
     <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <title>Xinyue Cheng</title>
+    <script>
+        function openSlideMenu(){
+            document.getElementById('menu').style.width = '250px';
+            document.getElementById('main').style.marginLeft = '100px';
+        }
+        function closeSlideMenu(){
+            document.getElementById('menu').style.width = '0px';
+            document.getElementById('main').style.marginLeft = '0px';
+        }
+    </script>
 </head>
 <body>
+<div id="main" role="main">
     <header>
-        <div class="mainnav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="project.html">Project</a></li> 
-                <li><a href="gallery.html">Gallery</a></li> 
-                <li><a href="resume.html">Resume</a></li> 
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>         
-    </header>
-    
-    <h1 class="logo"><a href="index.html">Xinyue</a></h1> 
-   
-    <div class="center">
-        <img src="images/homepage_computer.png" alt="Computer">
-    </div>   
-
-    <div class="about">
-        <div class="item1">
-            <div class="subitem1">
-                <h2>About Me</h2>
+        <div id="headerbg"> 
+            <div class="logo">
+                <p><a href="index.html">XINYUE</a></p>
             </div>
-            <div class="subitem2">
-                <img src="images/selfie.jpg" alt="Selfie" class="selfie">
-                <p>A Designer, Researcher, and Dreamer</p>
+            <nav role="navigation">
+                <a href="index.html">Home</a>
+                <a href="project.html">Project</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </nav>              
+            <!--Here start the homepage top section-->
+            <div id="topsection">
+                <h1 class="maintitle">Customiz<span style="color:#db1e16">a</span>tion L<span style="color:#db1e16">a</span>b</h1>
+                <div class="titlepic">
+                    <img src="images/homepage_computer.png" alt="Computer">
+                </div>    
+            </div>
+        </div> 
+    </header>
+    <!--Here start the about me section-->
+    <div class="about">
+        <div class="portrait">
+            <h2>About Me</h2>
+            <div class="AMpic">
+                <img src="images/selfie.png" alt="Selfie" class="selfie">
+                <p>A wild dreamer</p>    
             </div>    
         </div>
+    
+        <div class="fancytext">
+            <img src="images/text_float.png" alt="textfloat" class="textfloat">
+        </div>
+    </div>
+    
+    <div class="portrait_sub">
+        <h2>About Me</h2>
+        <div class="AMpic2">
+            <img src="images/selfie.png" alt="Selfie" class="selfie2">
+            <p>A wild dreamer</p>    
+        </div>    
+    </div>
 
-        <div class="item2">
-                <img src="images/text_float.png" alt="float" class="textfloat">
-        </div>        
-    </div>    
-        
     <div class="bio">
         <div class="titles">
-            <h2>You Select Anything</h2>
-            <h2>I Do Everything</h2>
+            <h2>You <span style="color:#db1e16">Select</span> Anything</h2>
+            <h2>I <span style="color:#f3d631">Do</span> Everything</h2>
         </div>
         <div class="text">
-                <p class="subtext1">I’m a designer with a background in radio and television journalism. As a journalist, I aim to identify problems through observation of daily life and communication with various kinds of people. As a designer, my goal is to solve problems neatly and elegantly to improve user experience.
-                   I enjoy changes and embrace challenges. I work with passion as well as patience, hoping to use my skills to create more innovative and human-centered design that will fulfill not only recent goals but also has
-                </p>
-                <p class="subtext2">
-                    a long-term positive influence on society and environment. 
-                    But…I’m not only a designer!
-                    I’m a photographer who is keen to capture the beauty of life. I’m a music lover who is actively practicing singing and piano.
-                    I’m an actor who won the first prize of Shakespeare’s Play Contest. I am an individual who is passionate and curious about nearly everything in life.
-                    <br>
-                    I look forward to meeting you and exploring a wider world with you!
-                </p>
+            <p class="subtext1">I’m a designer with a background in radio and television journalism. As a journalist, I aim to identify problems through observation of daily life and communication with various kinds of people. As a designer, my goal is to solve problems neatly and elegantly to improve user experience. I enjoy changes and embrace challenges. I work with passion as well as patience, hoping to use my skills to create more innovative and human-centered design that will fulfill not only recent goals but also has</p>
+            <p class="subtext2">a long-term positive influence on society and environment. But…I’m not only a designer! I’m a photographer who is keen to capture the beauty of life. I’m a music lover who is actively practicing singing and piano. I’m an actor who won the first prize of Shakespeare’s Play Contest. I am an individual who is passionate and curious about nearly everything in life.
+            <br>
+            I look forward to meeting you and exploring a wider world with you!
+            </p>
         </div>
     </div>
-    
-    <div class="projtitle">
-        <h2 >My Latest Work</h2>
-    </div>
-        
-    <div class="projects">
-        <div class ="proj1">
-            <a href="brand.html"><img src="images/brand.png" alt="brand"></a>
+   <!--Here start the project section-->
+   <div class="projtitle">
+       <h2>My Latest Work</h2>
+   </div>
+   <div class="project">
+       <div class="webdesign">
+            <!-- <img src="images/webdesign_small.png" alt="Webdesign"> -->
+       </div>
+       <div class="webexp">
+            <h3>WEB DESIGN</h3>
+            <p>Donec porta facilisis nisl, in vulputate diam bibendum vel. Vestibulum sed mauris orci.</p>
+            <button>VIEW</button>
+       </div>
+       <div class="branding">
+           <!-- <img src="images/brand_small.png" alt="Branding"> -->
+       </div>
+       <div class="mobile">
+            <!-- <img src="images/mobiledesign_small.png" alt="Mobile"> -->
+       </div>
+       <div class="mobileexp">
+           <h3>MOBILE DESIGN</h3>
+           <p>Donec porta facilisis nisl, in vulputate diam bibendum vel. Vestibulum sed mauris orci.</p>
+           <button>VIEW</button>
         </div>
-        <div class="proj2">
-            <a href="web.html"><img src="images/web.png" alt="web"></a>
-        </div>    
-        <div class="proj3">
-            <a href="mobile.html"><img src="images/mobile.png" alt="mobile"></a>
-        </div>
-        <div class="proj4">
-            <a href="media.html"><img src="images/media.png" alt="media"></a>
-        </div>
+       <div class="media">
+            <!-- <img src="images/media_small.png" alt="Media"> -->
+       </div>
     </div>
-    
-    <div class="comment">
-        <h2>My Clients Say</h2>
-        <p>“We really appreciate your recommendations and will try to implement the highly feasible ones as soon as possible.”</p>
-    </div>
-
-    <div class="footer">
-        <a href="www.linkedin.com/in/xinyuecheng">
-            <i class="fab fa-linkedin fa-2x" aria-label="My Linkedin Profile"></i>
-            Linkedin
-        </a>
-        <a href="https://www.facebook.com/xinyue.cheng.9">
-            <i class="fab fa-facebook-square fa-2x" aria-label="My Facebook Page"></i>
-            Facebook
-        </a>
-        <a href="https://github.com/Cxinyue81">
-            <i class="fab fa-github fa-2x" aria-label="My Github page"></i>
-            Github
-        </a>
+    <!--Here start the testimonial section-->
+    <div class="client">
+        <div class="clienttiltle">
+            <h2>My Clients Say</h2>
+        </div>
+        <div class="slideshow-container">
+            <div class="quotes">
+                <q>Quisque non magna eu odio accumsan tristique. Pellentesque pulvinar molestie et augue. Proin bibendum ipsum tellus. Nullam semper nisl in elementum dignissim. Suspendisse interdum non mi ultricies ullamcorper. Sed tincidunt pharetra magna, vel gravida magna blandit vitae. Fusce feugiat eu urna et consectetur.</q>
+            </div>
+            <div class="quotes">
+                <q>BIG non magna eu odio accumsan tristique. Pellentesque pulvinar molestie et augue. Proin bibendum ipsum tellus. Nullam semper nisl in elementum dignissim. Suspendisse interdum non mi ultricies ullamcorper. Sed tincidunt pharetra magna, vel gravida magna blandit vitae. Fusce feugiat eu urna et consectetur.</q>
+            </div>
+            <div class="quotes">
+                <q>SMALL non magna eu odio accumsan tristique. Pellentesque pulvinar molestie et augue. Proin bibendum ipsum tellus. Nullam semper nisl in elementum dignissim. Suspendisse interdum non mi ultricies ullamcorper. Sed tincidunt pharetra magna, vel gravida magna blandit vitae. Fusce feugiat eu urna et consectetur.</q>
+            </div>
+            <div class="quotes">
+                <q>BLUE non magna eu odio accumsan tristique. Pellentesque pulvinar molestie et augue. Proin bibendum ipsum tellus. Nullam semper nisl in elementum dignissim. Suspendisse interdum non mi ultricies ullamcorper. Sed tincidunt pharetra magna, vel gravida magna blandit vitae. Fusce feugiat eu urna et consectetur.</q>
+            </div>
+            <div class="quotes">
+                <q>RED non magna eu odio accumsan tristique. Pellentesque pulvinar molestie et augue. Proin bibendum ipsum tellus. Nullam semper nisl in elementum dignissim. Suspendisse interdum non mi ultricies ullamcorper. Sed tincidunt pharetra magna, vel gravida magna blandit vitae. Fusce feugiat eu urna et consectetur.</q>
+            </div>
+        </div>
+        <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>       
     </div>    
-                        
+</div>     
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("quotes");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
 </body>
 </html>

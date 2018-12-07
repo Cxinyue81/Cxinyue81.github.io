@@ -1,29 +1,28 @@
 body{
     margin-left: 10%;
     margin-right: 10%;
+    position: absolute;
 }
 
-.body h1,h2,h3,h4{
+body h1,h2,h3,h4{
     font-family: 'Audiowide', cursive;
 }
 
-.body p li{
+body p {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.logo{
-    display:block;
-}
-
-.mainnav{
-    float: right; 
-}
-
-.mainnav li{
-    display:inline-block;
-    width: 100px;
-    text-decoration: none;
+nav {
+    margin-top: 3%;
+    margin-right: 5%;
+    font-family: 'Ubuntu', sans-serif;
+    float: right;
     color: black;
+}
+
+nav a{
+    padding: 18px;
+    font-size: 110%;
 }
 
 a:link{
@@ -37,7 +36,7 @@ a:visited{
 }
 
 a:hover{
-    color:#d74e32;
+    color:#db1e16;
     text-decoration: none;
 }
 

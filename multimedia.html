@@ -2,105 +2,146 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/mainstyle.css">
     <link rel="stylesheet" type="text/css" href="css/multimedia_style.css">
-    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <title>Multimedia Design</title>
 </head>
 <body>
+<div id="main" role="main">
     <header>
-        <div class="dropdown">
-            <!-- <button class="dropbtn">MENU</button>   -->
-            <div class="mainnav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="project.html">Project</a></li> 
-                    <li><a href="gallery.html">Gallery</a></li> 
-                    <li><a href="resume.html">Resume</a></li> 
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+        <div id="headerbg"> 
+            <div class="logo">
+                <p><a href="index.html">XINYUE</a></p>
             </div>
-        </div>             
+            <nav role="navigation">
+                <a href="index.html">Home</a>
+                <a href="project.html">Project</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </nav>              
+            <!--Here start the homepage top section-->
+            <div id="topsection">
+                <h1 class="maintitle">Mult<span style="color:#f3d631">i</span>media Des<span style="color:#f3d631">i</span>gn</h1>
+            </div>
+        </div> 
     </header>
-    <h1 class="logo"><a href="index.html">Xinyue</a></h1>  
-    <div class="biggerbox1">
-        <div class="chinese">
-        <div class="video1">
-            <iframe class="resp-iframe" src="https://www.youtube.com/embed/qdQmzEeClns" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-        <div class="text1">
-            <h2>Chinese Style Name Tag</h2>
-            <p> 
-                Traditional Chinese ink paintings inspire this piece of work. The corresponding poem was composed according to the meaning of the name. Using the content of the poem to depict several beautiful scenes, which leads to a unique video name tag.
-                <br> <br>
-                DATE: DEC 2015
-                <br>
-                CLIENT: Xinyue
-                <br>
-                CATEGORY: Branding
-            </p>
-        </div>
-        </div>
-    
-        <div class="stopsmoking">
-            <div class="video2">
-                    <iframe class="resp-iframe" src="https://www.youtube.com/embed/Fa8Rmjla_vI"  allow="autoplay; encrypted-media" allowfullscreen></iframe>            
+    <!--Here start the first video-->
+    <canvas id="cyan" width="1092.8px" height="630px">
+    </canvas>
+    <div class="ink">
+            <div class="chinesevideo">
+                <iframe src="https://www.youtube.com/embed/qdQmzEeClns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="text2">
-                <h2>Stop Smoking</h2>
-                <p> 
-                    Anthropomorphizing the objects in real life, using the form of animation to vividly depict the adverse effects of smoking on the human body, thus achieving the purpose of admonishing the public.                    
-                    <br> <br>
-                    DATE: OCT 2016
-                    <br>
-                    CLIENT: National College Advertising Competition
-                    <br>
-                    CATEGORY: PSA
-                </p>
+            <div class="chinesetext">
+                <h2>Chinese Style Name Tag</h2>
+                <p>Traditional Chinese ink paintings inspire this piece of work. The corresponding poem was composed according to the meaning of the name. Using the content of the poem to depict several beautiful scenes, which leads to a unique video name tag.</p>
+                <p class="notfortm">DATE: DEC 2015</p>
+                <p class="notfortm">CLIENT: Xinyue</p>
+                <p class="notfortm">CATEGORY: Branding</p>
             </div>
-        </div>
     </div>
-        
-    <div class="biggerbox2">
-        <div class="converse">
-                    <div class="video3">
-                        <iframe class="resp-iframe" src="https://www.youtube.com/embed/3v0IG99RIP0" allow="autoplay; encrypted-media" allowfullscreen></iframe>                
-                        </div>
-                    <div class="text3">
-                        <h2>Converse Made By You</h2>
-                        <p> 
-                            The combination of retro design elements and stylish stop motion animations make this unique commercial. This work is dedicated to connecting the converse's brand image with the daily life of the consumer, highlighting the versatile character of converse shoes.                        
-                            <br> <br>
-                            DATE: NOV 2016
-                            <br>
-                            CLIENT: Converse
-                            <br>
-                            CATEGORY: Commercial
-                        </p>
-                    </div>
+
+    <!--Here start the second video-->
+    <canvas id="yellow" width="1092.8px" height="430px">
+    </canvas>
+    <div class="smoking">
+        <div class="smokingvideo">
+            <iframe src="https://www.youtube.com/embed/Fa8Rmjla_vI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
         </div>
-    
-        <div class="stopbullying">
-                        <div class="video4">
-                            <iframe class="resp-iframe" src="https://www.youtube.com/embed/yCP-8GtC-oo" allow="autoplay; encrypted-media" allowfullscreen></iframe>                        
-                        </div>
-                        <div class="text4">
-                            <h2>Stop Bullying</h2>
-                            <p> 
-                                The expression of school violence is portrayed by freehand shots and appropriate special effects, with the aim of raising students' awareness of school violence and further calling on them to stop school bullying.                            
-                                <br> <br>
-                                DATE: MAR 2017
-                                <br>
-                                CLIENT: Sichuan International Studies University
-                                <br>
-                                CATEGORY: PSA
-                            </p>
-                        </div>
+        <div class="smokingtext">
+            <h2>Stop Smoking</h2>
+            <p>Anthropomorphizing the objects in real life, using the form of animation to vividly depict the adverse effects of smoking on the human body, thus achieving the purpose of admonishing the public.</p>
+            <p class="notfortm">DATE: OCT 2016</p>
+            <p class="notfortm">CLIENT: National College Advertising Competition</p>
+            <p class="notfortm">CATEGORY: PSA</p>
         </div>
     </div>
 
-    
+    <!--Here start the third video-->
+    <canvas id="mazarine" width="1092.8px" height="630px">
+    </canvas>
+    <div class="converse">
+        <div class="conversevideo">
+            <iframe src="https://www.youtube.com/embed/3v0IG99RIP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+        </div>    
+        <div class="conversetext">
+            <h2>Converse Made By You</h2>
+            <p>The combination of retro design elements and stylish stop motion animations make this unique commercial. This work is dedicated to highlighting the versatile character of converse shoes.</p>
+            <p class="notfortm">DATE: NOV 2016</p>
+            <p class="notfortm">CLIENT: Converse</p>
+            <p class="notfortm">CATEGORY: Commercial</p>
+        </div>
+    </div>
+
+    <!--Here start the fourth video-->
+    <canvas id="red" width="1092.8px" height="450px">
+    </canvas>
+    <div class="bullying">
+        <div class="bullyingvideo">
+            <iframe src="https://www.youtube.com/embed/yCP-8GtC-oo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+        </div>
+        <div class="bullyingtext">
+            <h2>Stop Bullying</h2>
+            <p>The expression of school violence is portrayed by freehand shots and appropriate special effects, with the aim of raising students' awareness of school violence and further calling on them to stop school bullying.</p>
+            <p class="notfortm">DATE: MAR 2017</p>
+            <p class="notfortm">CLIENT:Sichuan International Studies University</p>
+            <p class="notfortm">CATEGORY: PSA</p>
+        </div>
+    </div>
+    <footer>
+        <a class="linkedin" href="https://www.linkedin.com/in/xinyuecheng/"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a class="facebook" href="https://www.facebook.com/xinyue.cheng.9"><i class="fab fa-facebook-square fa-2x"></i></a>
+        <a class="github" href="https://github.com/Cxinyue81"><i class="fab fa-github-square fa-2x"></i></a>
+    </footer>      
+</div>
+<script>
+    var canvas = document.getElementById("cyan");
+    var ctx = canvas.getContext("2d");
+    ctx.moveTo(0,0);
+    ctx.lineTo(0,280);
+    ctx.lineTo(1092.8,200);
+    ctx.lineTo(1092.8,0);
+    ctx.closePath();
+    ctx.fillStyle="#8ec9c9";
+    ctx.fill();
+</script>
+<script>
+    var canvas = document.getElementById("yellow");
+    var ctx = canvas.getContext("2d");
+    ctx.moveTo(1092.8,100);
+    ctx.lineTo(1092.8,430);
+    ctx.lineTo(0,430);
+    ctx.lineTo(0,250);
+    ctx.closePath();
+    ctx.fillStyle="#f3d631";
+    ctx.fill();
+</script>   
+<script>
+    var canvas = document.getElementById("mazarine");
+    var ctx = canvas.getContext("2d");
+    ctx.moveTo(0,550);
+    ctx.lineTo(0,270);
+    ctx.lineTo(1092.8,270);
+    ctx.lineTo(1092.8,452);
+    ctx.closePath();
+    ctx.fillStyle="#03113d";
+    ctx.fill();
+</script>
+<script>
+    var canvas = document.getElementById("red");
+    var ctx = canvas.getContext("2d");
+    ctx.moveTo(1092.8,120);
+    ctx.lineTo(1092.8,450);
+    ctx.lineTo(0,450);
+    ctx.lineTo(0,270);
+    ctx.closePath();
+    ctx.fillStyle="#db1e16";
+    ctx.fill();
+</script>     
 </body>
 </html>

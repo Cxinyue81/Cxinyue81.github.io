@@ -46,3 +46,16 @@ a:hover{
     height: 200px;
     border: none;
 }
+
+footer{
+    text-align: center;
+}
+
+.linkedin{
+    margin-right: 10%;
+}
+
+.facebook{
+    margin-right: 10%;
+}
+

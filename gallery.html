@@ -14,13 +14,12 @@
     <title>Gallery</title>
 </head>
 <body>
-    <div id="main" role="main">
-        <header>
+    <header>
             <div id="headerbg"> 
                 <div class="logo">
                     <p><a href="index.html">XINYUE</a></p>
                 </div>
-                <nav role="navigation">
+                <nav>
                     <a href="index.html">Home</a>
                     <a href="multimedia.html">Media</a>
                     <a href="gallery.html">Gallery</a>
@@ -32,7 +31,8 @@
                 </div>
             </div> 
         </header>
-        <div class = "gallery" role="main">
+    <div id="main" role="main">
+        <div class = "gallery">
             <fieldset id="miami">
                 <legend><h2>Miami</h2></legend>
                 <p>It is spring break, in the middle of March, my first year of grad school. The salty, floating breeze of Miami’s coast is enough to make my knees go weak. I look into the cloudless, cerulean blue sky and see the perfection of life; in the distance, rolling clear-blue waves crash into each other with such force as that of football players. I squint in the distance of the progressing whitecaps and come upon a floating yacht. </p>
@@ -72,13 +72,21 @@
                 </div>
             </fieldset>
         </div>
-
-        <footer>
-            <a class="linkedin" href="https://www.linkedin.com/in/xinyuecheng/"><i class="fab fa-linkedin fa-2x"></i></a>
-            <a class="facebook" href="https://www.facebook.com/xinyue.cheng.9"><i class="fab fa-facebook-square fa-2x"></i></a>
-            <a class="github" href="https://github.com/Cxinyue81"><i class="fab fa-github-square fa-2x"></i></a>
-        </footer>
-    </div>    
+    </div>
+    <footer>
+            <a class="linkedin" href="https://www.linkedin.com/in/xinyuecheng/"  aria-label="Linkedin">
+                <i class="fab fa-linkedin fa-2x"></i>
+                <p>Linkedin</p>
+            </a>
+            <a class="facebook" href="https://www.facebook.com/xinyue.cheng.9" aria-label="Facebook">
+                <i class="fab fa-facebook-square fa-2x"></i>
+                <p>Facebook</p>
+            </a>
+            <a class="github" href="https://github.com/Cxinyue81" aria-label="Github">
+                <i class="fab fa-github-square fa-2x"></i>
+                <p>Github</p>
+            </a>
+    </footer>    
     <script src="js/lightbox.js"></script>
 	<script src="mixitup/mixitup.min.js"></script>
 	<script>

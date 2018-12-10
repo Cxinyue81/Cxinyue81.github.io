@@ -12,13 +12,13 @@
     <title>Contact</title>
 </head>
 <body>
-    <div id="main" role="main">
+    
         <header>
             <div id="headerbg"> 
                 <div class="logo">
                     <p><a href="index.html">XINYUE</a></p>
                 </div>
-                <nav role="navigation">
+                <nav>
                     <a href="index.html">Home</a>
                     <a href="multimedia.html">Media</a>
                     <a href="gallery.html">Gallery</a>
@@ -31,6 +31,7 @@
             </div> 
         </header>
 
+    <div id="main" role="main">
         <canvas id="red" width="1092.8px" height="700px">
         </canvas>
         <canvas id="yellow" width="1092.8px" height="1380px">
@@ -67,14 +68,22 @@
                 <input type="submit" value="Send">
             </form>
         </div>
-
-        <footer>
-            <a class="linkedin" href="https://www.linkedin.com/in/xinyuecheng/"><i class="fab fa-linkedin fa-2x"></i></a>
-            <a class="facebook" href="https://www.facebook.com/xinyue.cheng.9"><i class="fab fa-facebook-square fa-2x"></i></a>
-            <a class="github" href="https://github.com/Cxinyue81"><i class="fab fa-github-square fa-2x"></i></a>
-        </footer>
-
     </div>
+    <footer>
+        <a class="linkedin" href="https://www.linkedin.com/in/xinyuecheng/"  aria-label="Linkedin">
+            <i class="fab fa-linkedin fa-2x"></i>
+            <p>Linkedin</p>
+        </a>
+        <a class="facebook" href="https://www.facebook.com/xinyue.cheng.9" aria-label="Facebook">
+            <i class="fab fa-facebook-square fa-2x"></i>
+            <p>Facebook</p>
+        </a>
+        <a class="github" href="https://github.com/Cxinyue81" aria-label="Github">
+            <i class="fab fa-github-square fa-2x"></i>
+            <p>Github</p>
+        </a>
+    </footer>
+
     <script>
         var canvas = document.getElementById("red");
         var ctx = canvas.getContext("2d");

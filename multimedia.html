@@ -12,13 +12,12 @@
     <title>Multimedia Design</title>
 </head>
 <body>
-<div id="main" role="main">
     <header>
         <div id="headerbg"> 
             <div class="logo">
                 <p><a href="index.html">XINYUE</a></p>
             </div>
-            <nav role="navigation">
+            <nav>
                 <a href="index.html">Home</a>
                 <a href="multimedia.html">Media</a>
                 <a href="gallery.html">Gallery</a>
@@ -26,16 +25,17 @@
             </nav>              
             <!--Here start the homepage top section-->
             <div id="topsection">
-                <h1 class="maintitle">Mult<span style="color:#f3d631">i</span>media Des<span style="color:#f3d631">i</span>gn</h1>
+                <h1 class="maintitle">Multimedia Design</h1>
             </div>
         </div> 
     </header>
+<div id="main" role="main">
     <!--Here start the first video-->
     <canvas id="cyan" width="1092.8px" height="630px">
     </canvas>
     <div class="ink">
             <div class="chinesevideo">
-                <iframe src="https://www.youtube.com/embed/qdQmzEeClns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/qdQmzEeClns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-label="Chinese Style Name Tag Video"></iframe>
             </div>
             <div class="chinesetext">
                 <h2>Chinese Style Name Tag</h2>
@@ -51,7 +51,7 @@
     </canvas>
     <div class="smoking">
         <div class="smokingvideo">
-            <iframe src="https://www.youtube.com/embed/Fa8Rmjla_vI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+            <iframe src="https://www.youtube.com/embed/Fa8Rmjla_vI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-label="Stop Smoking Video"></iframe>                
         </div>
         <div class="smokingtext">
             <h2>Stop Smoking</h2>
@@ -67,7 +67,7 @@
     </canvas>
     <div class="converse">
         <div class="conversevideo">
-            <iframe src="https://www.youtube.com/embed/3v0IG99RIP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+            <iframe src="https://www.youtube.com/embed/3v0IG99RIP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-label="Converse Video"></iframe>                
         </div>    
         <div class="conversetext">
             <h2>Converse Made By You</h2>
@@ -83,7 +83,7 @@
     </canvas>
     <div class="bullying">
         <div class="bullyingvideo">
-            <iframe src="https://www.youtube.com/embed/yCP-8GtC-oo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+            <iframe src="https://www.youtube.com/embed/yCP-8GtC-oo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-label="Stop Bullying Video"></iframe>                
         </div>
         <div class="bullyingtext">
             <h2>Stop Bullying</h2>
@@ -92,13 +92,22 @@
             <p class="notfortm">CLIENT:Sichuan International Studies University</p>
             <p class="notfortm">CATEGORY: PSA</p>
         </div>
-    </div>
-    <footer>
-        <a class="linkedin" href="https://www.linkedin.com/in/xinyuecheng/"><i class="fab fa-linkedin fa-2x"></i></a>
-        <a class="facebook" href="https://www.facebook.com/xinyue.cheng.9"><i class="fab fa-facebook-square fa-2x"></i></a>
-        <a class="github" href="https://github.com/Cxinyue81"><i class="fab fa-github-square fa-2x"></i></a>
-    </footer>      
+    </div>    
 </div>
+<footer>
+        <a class="linkedin" href="https://www.linkedin.com/in/xinyuecheng/"  aria-label="Linkedin">
+            <i class="fab fa-linkedin fa-2x"></i>
+            <p>Linkedin</p>
+        </a>
+        <a class="facebook" href="https://www.facebook.com/xinyue.cheng.9" aria-label="Facebook">
+            <i class="fab fa-facebook-square fa-2x"></i>
+            <p>Facebook</p>
+        </a>
+        <a class="github" href="https://github.com/Cxinyue81" aria-label="Github">
+            <i class="fab fa-github-square fa-2x"></i>
+            <p>Github</p>
+        </a>
+</footer> 
 <script>
     var canvas = document.getElementById("cyan");
     var ctx = canvas.getContext("2d");

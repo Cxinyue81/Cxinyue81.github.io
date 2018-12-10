@@ -12,13 +12,12 @@
     <title>Xinyue Cheng</title>
 </head>
 <body>
-<div id="main" role="main">
-    <header>
+     <header>
         <div id="headerbg"> 
             <div class="logo">
                 <p><a href="index.html">XINYUE</a></p>
             </div>
-            <nav role="navigation">
+            <nav>
                 <a href="index.html">Home</a>
                 <a href="multimedia.html">Media</a>
                 <a href="gallery.html">Gallery</a>
@@ -33,6 +32,7 @@
             </div>
         </div> 
     </header>
+<div id="main" role="main">
     <!--Here start the about me section-->
     <div class="about">
         <div class="portrait">
@@ -59,7 +59,7 @@
     <div class="bio">
         <div class="titles">
             <h2>You <span style="color:#db1e16">Select</span> Anything</h2>
-            <h2>I <span style="color:#f3d631">Do</span> Everything</h2>
+            <h2>I <span style="color:#db1e16">Do</span> Everything</h2>
         </div>
         <div class="text">
             <p class="subtext1">I’m a designer with a background in radio and television journalism. As a journalist, I aim to identify problems through observation of daily life and communication with various kinds of people. As a designer, my goal is to solve problems neatly and elegantly to improve user experience. I enjoy changes and embrace challenges. I work with passion as well as patience, hoping to use my skills to create more innovative and human-centered design that will fulfill not only recent goals but also has</p>
@@ -127,12 +127,21 @@
             <span class="dot" onclick="currentSlide(5)"></span>
         </div>       
     </div>
-    <footer>
-        <a class="linkedin" href="https://www.linkedin.com/in/xinyuecheng/"><i class="fab fa-linkedin fa-2x"></i></a>
-        <a class="facebook" href="https://www.facebook.com/xinyue.cheng.9"><i class="fab fa-facebook-square fa-2x"></i></a>
-        <a class="github" href="https://github.com/Cxinyue81"><i class="fab fa-github-square fa-2x"></i></a>
-    </footer>
-</div>     
+</div>
+<footer>
+    <a class="linkedin" href="https://www.linkedin.com/in/xinyuecheng/"  aria-label="Linkedin">
+        <i class="fab fa-linkedin fa-2x"></i>
+        <p>Linkedin</p>
+    </a>
+    <a class="facebook" href="https://www.facebook.com/xinyue.cheng.9" aria-label="Facebook">
+        <i class="fab fa-facebook-square fa-2x"></i>
+        <p>Facebook</p>
+    </a>
+    <a class="github" href="https://github.com/Cxinyue81" aria-label="Github">
+        <i class="fab fa-github-square fa-2x"></i>
+        <p>Github</p>
+    </a>
+</footer>     
     <script>
         var slideIndex = 1;
         showSlides(slideIndex);

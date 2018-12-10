@@ -1,0 +1,480 @@
+/* For Desktop */
+
+nav a:link{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:#db1e16;
+    text-decoration: none;
+}
+
+
+header{
+    display: block;
+}
+
+.logo{
+    margin-left: 5%;
+    display: inline-block;
+    text-align: center;
+    height:80px;
+    width:160px;
+    border-radius: 0 0 90px 90px;
+    background:white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: medium;
+    font-size: 155%;
+}
+
+#headerbg{
+    width: 100%;
+    height: 280px;
+    background-color: #03113d;
+}
+
+nav a{
+    color:white;
+}
+
+.maintitle{
+    text-align: center;
+    letter-spacing:2px;
+    margin-top: 3%;
+    font-size: 400%;
+    color: white;
+}
+
+.gallery img{
+    height: 306px;
+    width: 459px;
+    text-align: center;
+}
+
+/* Miami section*/
+#miami{
+    margin-top: 5%;
+    display: block;
+    border: #f3d631 solid 5px;
+}
+
+#miami legend{
+    font-size: 120%;
+    text-align: center;
+}
+
+#miami p{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+
+.miamiphotos{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 30px;
+    justify-content: center;
+}
+
+/* New Orleans section*/
+#neworlean{
+    margin-top: 5%;
+    display: block;
+    border: #db1e16 solid 5px;
+}
+
+#neworlean legend{
+    font-size: 120%;
+    text-align: center;
+}
+
+#neworlean p{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+.neworleansphotos{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 30px;
+    justify-content: center;
+}
+
+/* Chongqing section*/
+#chongqing{
+    margin-top: 5%;
+    display: block;
+    border: #8ec9c9 solid 5px;
+}
+
+#chongqing legend{
+    font-size: 120%;
+    text-align: center;
+}
+
+#chongqing p{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+.chongqingphotos{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 30px;
+    justify-content: center;
+}
+
+footer{
+    margin-top: 8%;
+}
+
+/* For Tablet */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1279px)
+{
+    nav a:link{
+        color: white;
+        text-decoration: none;
+    }
+    
+    nav a:visited{
+        color:white;
+        text-decoration: none;
+    }
+    
+    nav a:hover{
+        color:#db1e16;
+        text-decoration: none;
+    }
+    
+    nav{
+        margin-top: 5%;
+        margin-right: 3%;
+    }
+
+    nav a{
+        padding: 13px;
+    }
+    
+    header{
+        display: block;
+    }
+    
+    .logo{
+        margin-left: 5%;
+        display: inline-block;
+        text-align: center;
+        height:80px;
+        width:160px;
+        border-radius: 0 0 90px 90px;
+        background:white;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: medium;
+        font-size: 155%;
+    }
+    
+    #headerbg{
+        width: 100%;
+        height: 250px;
+        background-color: #03113d;
+    }
+    
+    nav a{
+        color:white;
+    }
+    
+    .maintitle{
+        text-align: center;
+        letter-spacing:2px;
+        margin-top: 3%;
+        font-size: 300%;
+        color: white;
+    }
+    
+    .gallery img{
+        height: 167px;
+        width: 250px;
+        text-align: center;
+    }
+    
+    /* Miami section*/
+    #miami{
+        margin-top: 5%;
+        display: block;
+        border: #f3d631 solid 5px;
+    }
+    
+    #miami legend{
+        font-size: 120%;
+        text-align: center;
+    }
+    
+    #miami p{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+    }
+    
+    
+    .miamiphotos{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+        grid-template-rows: auto auto auto;
+        grid-row-gap: 20px;
+        justify-content: center;
+    }
+    
+    /* New Orleans section*/
+    #neworlean{
+        margin-top: 5%;
+        display: block;
+        border: #db1e16 solid 5px;
+    }
+    
+    #neworlean legend{
+        font-size: 120%;
+        text-align: center;
+    }
+    
+    #neworlean p{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+    }
+    
+    .neworleansphotos{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+        grid-template-rows: auto auto auto;
+        grid-row-gap: 20px;
+        justify-content: center;
+    }
+    
+    /* Chongqing section*/
+    #chongqing{
+        margin-top: 5%;
+        display: block;
+        border: #8ec9c9 solid 5px;
+    }
+    
+    #chongqing legend{
+        font-size: 120%;
+        text-align: center;
+    }
+    
+    #chongqing p{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+    }
+    
+    .chongqingphotos{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+        grid-template-rows: auto auto auto;
+        grid-row-gap: 20px;
+        justify-content: center;
+    }
+    
+    footer{
+        margin-top: 8%;
+    }
+} 
+
+ /* For Mobile */
+ @media only screen 
+ and (max-device-width: 767px) 
+ and (min-device-width: 375px){
+    nav a:link{
+        color: white;
+        text-decoration: none;
+    }
+    
+    nav a:visited{
+        color:white;
+        text-decoration: none;
+    }
+    
+    nav a:hover{
+        color:#db1e16;
+        text-decoration: none;
+    }
+    
+    
+    header{
+        display: block;
+    }
+    
+    .logo{
+        margin-left: 5%;
+        display: inline-block;
+        text-align: center;
+        height:40px;
+        width:80px;
+        border-radius: 0 0 90px 90px;
+        background:white;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: medium;
+        font-size: 80%;
+    }
+    
+    #headerbg{
+        width: 100%;
+        height: 120px;
+        background-color: #03113d;
+    }
+    
+    nav a{
+        color:white;
+        padding: 3px;
+    }
+    
+    nav{
+        margin-top: 5%;
+        margin-right: 3%;
+        font-size: 10px;
+    }
+
+    .maintitle{
+        text-align: center;
+        letter-spacing:2px;
+        margin-top: 3%;
+        font-size: 130%;
+        color: white;
+    }
+    
+    .gallery img{
+        height: 157px;
+        width: 235px;
+        text-align: center;
+    }
+    
+    /* Miami section*/
+    #miami{
+        margin-top: 5%;
+        display: block;
+        border: #f3d631 solid 5px;
+    }
+    
+    #miami legend{
+        font-size: 100%;
+        text-align: center;
+    }
+    
+    #miami p{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+    }
+    
+    
+    .miamiphotos{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-row-gap: 10px;
+        justify-content: center;
+    }
+    
+    /* New Orleans section*/
+    #neworlean{
+        margin-top: 5%;
+        display: block;
+        border: #db1e16 solid 5px;
+    }
+    
+    #neworlean legend{
+        font-size: 100%;
+        text-align: center;
+    }
+    
+    #neworlean p{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+    }
+    
+    .neworleansphotos{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-row-gap: 10px;
+        justify-content: center;
+    }
+    
+    /* Chongqing section*/
+    #chongqing{
+        margin-top: 5%;
+        display: block;
+        border: #8ec9c9 solid 5px;
+    }
+    
+    #chongqing legend{
+        font-size: 100%;
+        text-align: center;
+    }
+    
+    #chongqing p{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+    }
+    
+    .chongqingphotos{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-row-gap: 10px;
+        justify-content: center;
+    }
+    
+    footer{
+        margin-top: 8%;
+    }
+ }    

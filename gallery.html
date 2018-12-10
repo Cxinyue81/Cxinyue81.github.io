@@ -6,33 +6,92 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/mainstyle.css">
     <link rel="stylesheet" type="text/css" href="css/gallery_style.css">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Gallery</title>
 </head>
 <body>
-        <div class="mainnav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li> <a href="project.html">Project</a></li> 
-                    <li><a href="gallery.html">Gallery</a></li> 
-                    <li><a href="resume.html">Resume</a></li> 
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-    <h1>Gallery</h1>
-    <br>
-    <p>I love photographing. I use my camera to record the beauty in my eyes and express the feeling from my heart.</p>
-    <img src="images/bird.jpg" alt="bird">
-    <img src="images/girl.jpg" alt="girl">
-    <img src="images/ship.jpg" alt="ship">
-    <img src="images/church.jpg" alt="church">
-    <img src="images/seabird.jpg" alt="seabird">
-    <img src="images/sandbird.jpg" alt="sandbird">
-    <img src="images/woman.jpg" alt="woman">
-    <img src="images/wall.jpg" alt="wall">
-    <img src="images/bridge.jpg" alt="bridge">
-    <img src="images/colorful.jpg" alt="colorful">
-    <img src="images/flower.jpg" alt="flower">
-    <img src="images/chicken.jpg" alt="chicken">
-    <img src="images/sea.jpg" alt="sea">
+    <div id="main" role="main">
+        <header>
+            <div id="headerbg"> 
+                <div class="logo">
+                    <p><a href="index.html">XINYUE</a></p>
+                </div>
+                <nav role="navigation">
+                    <a href="index.html">Home</a>
+                    <a href="multimedia.html">Media</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="contact.html">Contact</a>
+                </nav>              
+            <!--Here start the homepage top section-->
+                <div id="topsection">
+                    <h1 class="maintitle">Gall<span style="color:#f3d631">e</span>ry</h1>
+                </div>
+            </div> 
+        </header>
+        <div class = "gallery" role="main">
+            <fieldset id="miami">
+                <legend><h2>Miami</h2></legend>
+                <p>It is spring break, in the middle of March, my first year of grad school. The salty, floating breeze of Miami’s coast is enough to make my knees go weak. I look into the cloudless, cerulean blue sky and see the perfection of life; in the distance, rolling clear-blue waves crash into each other with such force as that of football players. I squint in the distance of the progressing whitecaps and come upon a floating yacht. </p>
+                <div class="miamiphotos">
+                    <a href="images/house.jpg" data-lightbox="image" data-title="White house under blue sky"><img src="images/house.jpg" alt="White house under blue sky"></a>
+                    <a href="images/chicken.jpg" data-lightbox="image" data-title="Baby chickens in the line"><img src="images/chicken.jpg" alt="Baby chickens in the line"></a>
+                    <a href="images/woman.jpg" data-lightbox="image" data-title="A woman is mimicing the wallpaint"><img src="images/woman.jpg" alt="A woman is mimicing the wallpaint"></a>
+                    <a href="images/ship.jpg" data-lightbox="image" data-title="A ship in the habor"><img src="images/ship.jpg" alt="A ship in the habor"></a>
+                    <a href="images/bridge.jpg" data-lightbox="image" data-title="The sunset on the bridge"><img src="images/bridge.jpg" alt="The sunset on the bridge"></a>
+                    <a href="images/sandbird.jpg" data-lightbox="image" data-title="A bird on the beach"><img src="images/sandbird.jpg" alt="A bird on the beach"></a>
+                </div>
+            </fieldset>
+
+            <fieldset id="neworlean">
+                <legend><h2>New Orleans</h2></legend>
+                <p>Every place in the world has at least two different views; to some the place is a home and to others it is a culture, a building, a new world that is to be awed and viewed for the small amount of time the tour bus drives past. A places meaning can change as events happen, but at some point the new memory will become the norm. New Orleans is seen as a place that was hit with a tragedy, but has recovered. The pictures to a tourist are full of beads from Mardi Gras, street corner voodoo shops, bowls of Cajun food, warm beignets covered with powder sugar, and a big Cathedral right in the middle of the French Quarter. </p>
+                <div class="neworleansphotos">
+                    <a href="images/museum.jpg" data-lightbox="image" data-title="World War II museum"><img src="images/museum.jpg" alt="World War II museum"></a>
+                    <a href="images/plane.jpg" data-lightbox="image" data-title="The huge plane in the museum"><img src="images/plane.jpg" alt="The huge plane in the museum"></a>
+                    <a href="images/churchoutside.jpg" data-lightbox="image" data-title="The Saint Louis Cathedral"><img src="images/churchoutside.jpg" alt="The Saint Louis Cathedral"></a>
+                    <a href="images/model.jpg" data-lightbox="image" data-title="The model in the museum"><img src="images/model.jpg" alt="The model in the museum"></a>
+                    <a href="images/boy.jpg" data-lightbox="image" data-title="A boy holding an alligator"><img src="images/boy.jpg" alt="A boy holding an alligator"></a>
+                    <a href="images/egret.jpg" data-lightbox="image" data-title="A egret standing in the swamp"><img src="images/egret.jpg" alt="A egret standing in the swamp"></a>
+                </div>
+            </fieldset>
+
+            <fieldset id="chongqing">
+                <legend><h2>Chongqing</h2></legend>
+                <p>I think we all have a beautiful place in our mind. I have a wonderful place that made me happy a lot of times, years ago. But sometimes I think that I am the only person who likes this place and I'm asking myself if this place will be as beautiful as I thought when I will go back to visit it again. Perhaps I made it beautiful in my mind. Chongqing is meaningful to me because it is part of the county I loved, is part of the county where I went to college.</p>
+                <div class="chongqingphotos">
+                    <a href="images/bird.jpg" data-lightbox="image" data-title="A bird in the ocean of leaves"><img src="images/bird.jpg" alt="A bird in the ocean of leaves"></a>
+                    <a href="images/girl.jpg" data-lightbox="image" data-title="A girl in pink dress"><img src="images/girl.jpg" alt="A girl in pink dress"></a>
+                    <a href="images/colorful.jpg" data-lightbox="image" data-title="A colorful lizard"><img src="images/colorful.jpg" alt="A colorful lizard"></a>
+                    <a href="images/flower.jpg" data-lightbox="image" data-title="Tiny yellow flower"><img src="images/flower.jpg" alt="Tiny yellow flower"></a>
+                    <a href="images/seabird.jpg" data-lightbox="image" data-title="A lovely seabird"><img src="images/seabird.jpg" alt="A lovely seabird"></a>
+                    <a href="images/fish.jpg" data-lightbox="image" data-title="Fish in the pool"><img src="images/fish.jpg" alt="Fish in the pool"></a>
+                </div>
+            </fieldset>
+        </div>
+
+        <footer>
+            <a class="linkedin" href="https://www.linkedin.com/in/xinyuecheng/"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a class="facebook" href="https://www.facebook.com/xinyue.cheng.9"><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a class="github" href="https://github.com/Cxinyue81"><i class="fab fa-github-square fa-2x"></i></a>
+        </footer>
+    </div>    
+    <script src="js/lightbox.js"></script>
+	<script src="mixitup/mixitup.min.js"></script>
+	<script>
+		var containerEl1 = document.querySelector('.miamiphotos');
+		var mixer1 = mixitup(containerEl1);
+    </script>
+    <script>
+        var containerEl2 = document.querySelector('.neworleansphotos');
+        var mixer2 = mixitup(containerEl2);
+    </script>
+    <script>
+        var containerEl3 = document.querySelector('.chongqingphotos');
+        var mixer3 = mixitup(containerEl3);
+    </script>
 </body>
 </html>

@@ -200,6 +200,15 @@ footer{
     and (min-device-width: 768px) 
     and (max-device-width: 1279px)
     {
+        nav{
+            margin-top: 5%;
+            margin-right: 3%;
+        }
+
+        nav a{
+            padding: 13px;
+        }
+        
         header{
             display: block;
         }
@@ -228,7 +237,7 @@ footer{
             text-align: center;
             letter-spacing:2px;
             margin-top: 3%;
-            font-size: 320%;
+            font-size: 300%;
         }
 
         .notfortm{

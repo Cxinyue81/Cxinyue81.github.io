@@ -6,41 +6,121 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/mainstyle.css">
     <link rel="stylesheet" type="text/css" href="css/contact_style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <title>Contact</title>
 </head>
 <body>
-    <div class="mainnav">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li> <a href="project.html">Project</a></li> 
-            <li><a href="gallery.html">Gallery</a></li> 
-            <li><a href="resume.html">Resume</a></li> 
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
-    <h1>Contact Me</h1>
-    <div class="form">
-            <form action="action_page.php">
-          
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-              <br>
-    
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              <br>
+    <div id="main" role="main">
+        <header>
+            <div id="headerbg"> 
+                <div class="logo">
+                    <p><a href="index.html">XINYUE</a></p>
+                </div>
+                <nav role="navigation">
+                    <a href="index.html">Home</a>
+                    <a href="multimedia.html">Media</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="contact.html">Contact</a>
+                </nav>              
+            <!--Here start the homepage top section-->
+                <div id="topsection">
+                    <h1 class="maintitle">Cont<span style="color:#f3d631">a</span>ct</h1>
+                </div>
+            </div> 
+        </header>
 
-              <label for="email">Email</label>
-              <input type="text" id="email" name="emailaddress" placeholder="Your Email address..">
-              <br>
+        <canvas id="red" width="1092.8px" height="700px">
+        </canvas>
+        <canvas id="yellow" width="1092.8px" height="1380px">
+        </canvas>
+        <canvas id="cyan" width="1092.8px" height="1950px">
+        </canvas>
+        
+        <div class="mypath">
+            <img src="images/learningpath.png" alt="My UX Learning Path">
+        </div>
 
-              <label for="message">Message</label>
-              <textarea id="message" name="content" placeholder="Write something.."></textarea>
-              <br>  
+        <canvas id="mazarine" width="1092.8px" height="730px">
+        </canvas>
+
+        <div class="contact">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
               
-              <input type="submit" value="Submit">
-          
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="canada">Canada</option>
+                    <option value="usa">China</option>
+                    <option value="australia">Germany</option>
+                    <option value="usa">USA</option>
+                </select>
+              
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                <input type="submit" value="Send">
             </form>
-          </div>
+        </div>
+
+        <footer>
+            <a class="linkedin" href="https://www.linkedin.com/in/xinyuecheng/"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a class="facebook" href="https://www.facebook.com/xinyue.cheng.9"><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a class="github" href="https://github.com/Cxinyue81"><i class="fab fa-github-square fa-2x"></i></a>
+        </footer>
+
+    </div>
+    <script>
+        var canvas = document.getElementById("red");
+        var ctx = canvas.getContext("2d");
+        ctx.moveTo(0,0);
+        ctx.lineTo(0,630);
+        ctx.bezierCurveTo(630,500,600,850,1092.8,630);
+        ctx.lineTo(1092.8,0);
+        ctx.closePath();
+        ctx.fillStyle="#db1e16";
+        ctx.fill();
+    </script>
+    
+    <script>
+        var canvas = document.getElementById("yellow");
+        var ctx = canvas.getContext("2d");
+        ctx.moveTo(0,0);
+        ctx.lineTo(0,1180);
+        ctx.bezierCurveTo(500,1400,600,1150,1092.8,1180);
+        ctx.lineTo(1092.8,0);
+        ctx.closePath();
+        ctx.fillStyle="#f3d631";
+        ctx.fill();
+    </script>
+    
+    <script>
+        var canvas = document.getElementById("cyan");
+        var ctx = canvas.getContext("2d");
+        ctx.moveTo(0,0);
+        ctx.lineTo(0,1780);
+        ctx.bezierCurveTo(500,1680,600,1950,1092.8,1780);
+        ctx.lineTo(1092.8,0);
+        ctx.closePath();
+        ctx.fillStyle="#8ec9c9";
+        ctx.fill();
+    </script>
+    
+    <script>
+        var canvas = document.getElementById("mazarine");
+        var ctx = canvas.getContext("2d");
+        ctx.moveTo(0,0);
+        ctx.lineTo(0,730);
+        ctx.lineTo(1092.8,730);
+        ctx.lineTo(1092.8,0);
+        ctx.closePath();
+        ctx.fillStyle="#03113d";
+        ctx.fill();
+    </script>
 </body>
 </html>

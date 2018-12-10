@@ -53,10 +53,16 @@ footer{
 }
 
 .linkedin{
+    display: inline-block;
     margin-right: 10%;
 }
 
 .facebook{
+    display: inline-block;
     margin-right: 10%;
+}
+
+.github{
+    display: inline-block;
 }
 

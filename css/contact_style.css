@@ -114,13 +114,14 @@ input[type=text], select, textarea {
 
 input[type=submit] {
     background-color: #f3d631;
-    color: white;
+    color: #03113d;
     padding: 12px 20px;
     border: none;
 }
 
 input[type=submit]:hover {
     background-color: #db1e16;
+    color:white;
 }
 
 footer{
@@ -252,14 +253,14 @@ footer{
         
         input[type=submit] {
             background-color: #f3d631;
-            color: white;
+            color: #03113d;
             padding: 12px 20px;
             border: none;
-            cursor: pointer;
         }
         
         input[type=submit]:hover {
             background-color: #db1e16;
+            color:white;
         }
         
         footer{
@@ -390,14 +391,14 @@ footer{
     
     input[type=submit] {
         background-color: #f3d631;
-        color: white;
+        color: #03113d;
         padding: 12px 20px;
         border: none;
-        cursor: pointer;
     }
     
     input[type=submit]:hover {
         background-color: #db1e16;
+        color:white;
     }
     
     footer{

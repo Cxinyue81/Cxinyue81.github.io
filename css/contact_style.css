@@ -1,0 +1,406 @@
+nav a:link{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:#03113d;
+    text-decoration: none;
+}
+
+
+header{
+    display: block;
+}
+
+.logo{
+    margin-left: 5%;
+    display: inline-block;
+    text-align: center;
+    height:80px;
+    width:160px;
+    border-radius: 0 0 90px 90px;
+    background:white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: medium;
+    font-size: 155%;
+}
+
+#headerbg{
+    width: 100%;
+    height: 280px;
+    background-color: #db1e16;
+}
+
+nav a{
+    color:white;
+}
+
+.maintitle{
+    text-align: center;
+    letter-spacing:2px;
+    margin-top: 3%;
+    font-size: 400%;
+    color: white;
+}
+
+.mypath{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    z-index: 1;
+}
+
+.mypath img{
+    width: 90%;
+    height: auto;
+}
+
+#red{
+    z-index: -1;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+
+#yellow{
+    z-index: -2;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+
+#cyan{
+    z-index: -3;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+
+#mazarine{
+    z-index: -4;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+
+.contact{
+    width: 90%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 15%;
+    z-index: 1;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    background-color: #03113d;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #f3d631;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+}
+
+input[type=submit]:hover {
+    background-color: #db1e16;
+}
+
+footer{
+    margin-top: 10%;
+}
+
+/* For Tablet */
+@media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1279px)
+    {
+        nav a:link{
+            color: white;
+            text-decoration: none;
+        }
+        
+        nav a:visited{
+            color:white;
+            text-decoration: none;
+        }
+        
+        nav a:hover{
+            color:#03113d;
+            text-decoration: none;
+        }
+        
+        nav{
+            margin-top: 5%;
+            margin-right: 3%;
+        }
+    
+        nav a{
+            padding: 13px;
+        }
+
+        header{
+            display: block;
+        }
+        
+        
+        .logo{
+            margin-left: 5%;
+            display: inline-block;
+            text-align: center;
+            height:80px;
+            width:160px;
+            border-radius: 0 0 90px 90px;
+            background:white;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: medium;
+            font-size: 155%;
+        }
+        
+        #headerbg{
+            width: 100%;
+            height: 210px;
+            background-color: #db1e16;
+        }
+        
+        .maintitle{
+            text-align: center;
+            letter-spacing:2px;
+            margin-top: 3%;
+            font-size: 300%;
+        }
+
+        .mypath{
+            text-align: center;
+            margin-left: 5%;
+            margin-right: 5%;
+            z-index: 1;
+        }
+        
+        .mypath img{
+            width: 90%;
+            height: auto;
+        }
+        
+        #red{
+            z-index: -1;
+            text-align: center;
+            position: absolute;
+            width: 100%;
+        }
+        
+        #yellow{
+            z-index: -2;
+            text-align: center;
+            position: absolute;
+            width: 100%;
+        }
+        
+        #cyan{
+            z-index: -3;
+            text-align: center;
+            position: absolute;
+            width: 100%;
+        }
+        
+        #mazarine{
+            z-index: -4;
+            text-align: center;
+            position: absolute;
+            width: 100%;
+        }
+        
+        .contact{
+            width: 90%;
+            color: white;
+            font-family: 'Ubuntu', sans-serif;
+            margin-top: 15%;
+            z-index: 1;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-bottom: 5%;
+            background-color: #03113d;
+        }
+        
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid white;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+        
+        input[type=submit] {
+            background-color: #f3d631;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+            background-color: #db1e16;
+        }
+        
+        footer{
+            margin-top: 10%;
+        }
+    }
+
+/* For Mobile */
+ @media only screen 
+ and (max-device-width: 767px) 
+ and (min-device-width: 375px){
+    nav a:link{
+        color: white;
+        text-decoration: none;
+    }
+    
+    nav a:visited{
+        color:white;
+        text-decoration: none;
+    }
+    
+    nav a:hover{
+        color:#03113d;
+        text-decoration: none;
+    }
+    
+    nav a{
+        padding: 3px;
+    }
+    
+    nav{
+        margin-top: 5%;
+        margin-right: 3%;
+        font-size: 10px;
+    }
+
+    header{
+        display: block;
+    }
+    
+    .logo{
+        margin-left: 5%;
+        display: inline-block;
+        text-align: center;
+        height:40px;
+        width:80px;
+        border-radius: 0 0 90px 90px;
+        background:white;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: medium;
+        font-size: 80%;
+    }
+    
+    #headerbg{
+        width: 100%;
+        height: 110px;
+        background-color: #db1e16;
+    }
+    
+    .maintitle{
+        text-align: center;
+        letter-spacing:2px;
+        margin-top: 3%;
+        font-size: 130%;
+    } 
+    .mypath{
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        z-index: 1;
+    }
+    
+    .mypath img{
+        width: 90%;
+        height: auto;
+    }
+    
+    #red{
+        z-index: -1;
+        text-align: center;
+        position: absolute;
+        width: 100%;
+    }
+    
+    #yellow{
+        z-index: -2;
+        text-align: center;
+        position: absolute;
+        width: 100%;
+    }
+    
+    #cyan{
+        z-index: -3;
+        text-align: center;
+        position: absolute;
+        width: 100%;
+    }
+    
+    #mazarine{
+        z-index: -4;
+        text-align: center;
+        position: absolute;
+        width: 100%;
+    }
+    
+    .contact{
+        width: 90%;
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        margin-top: 15%;
+        z-index: 1;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+        background-color: #03113d;
+    }
+    
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid white;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    
+    input[type=submit] {
+        background-color: #f3d631;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+        background-color: #db1e16;
+    }
+    
+    footer{
+        margin-top: 10%;
+    }
+}

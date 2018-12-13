@@ -21,6 +21,7 @@ nav {
     color: black;
 }
 
+
 nav a{
     padding: 18px;
     font-size: 110%;
@@ -39,6 +40,12 @@ a:visited{
 a:hover{
     color:#db1e16;
     text-decoration: none;
+}
+
+.currentpage{
+    border: white solid 2px;
+    border-radius: 10%;
+    
 }
 
 .resp-iframe{
@@ -64,5 +71,14 @@ footer{
 
 .github{
     display: inline-block;
+}
+
+a.skipmain{
+    color: white;
+}
+
+
+a.skipmain:focus, a.skipmain:active{
+    color: black;
 }
 

@@ -394,6 +394,7 @@ footer{
         color: #03113d;
         padding: 12px 20px;
         border: none;
+        border-radius: 15%;
     }
     
     input[type=submit]:hover {
